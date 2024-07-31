@@ -101,12 +101,16 @@ body {
     min-width: 169px;
     height: 56px;
     border: none;
+    border-radius: 4px;
 }
 .button:hover {
     background-color: #404bbf;
 }
 .button:focus {
     background-color: #404bbf;
+} 
+.section-one {
+    padding: 120px 0;
 }
 .feature-strategy {
     font-weight: 500;
