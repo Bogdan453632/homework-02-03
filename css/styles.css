@@ -45,9 +45,8 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
-
-
-}
+    margin-right: 40px;  
+}   
 .link-studio:hover {
     color: #404bbf;
 }
@@ -58,11 +57,14 @@ body {
 .address {
     font-style: normal;
 }
+
 .link-email {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
+    margin-right: 40px 0;
 }
 .link-email:hover {
     color: #404bbf;
@@ -74,6 +76,7 @@ body {
 
 .hero-image {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .effective-solutions {
     font-size: 56px;
