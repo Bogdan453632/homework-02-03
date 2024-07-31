@@ -112,6 +112,10 @@ body {
 .section-one {
     padding: 120px 0;
 }
+.list-strategy{
+    display: flex;
+    gap: 24px;
+}
 .feature-strategy {
     font-weight: 500;
     font-size: 20px;
