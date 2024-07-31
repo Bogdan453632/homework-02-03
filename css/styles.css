@@ -45,7 +45,7 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
-    margin-right: 40px;  
+    gap: 40px;  
 }   
 .link-studio:hover {
     color: #404bbf;
@@ -63,8 +63,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    display: flex;
-    margin-right: 40px 0;
 }
 .link-email:hover {
     color: #404bbf;
