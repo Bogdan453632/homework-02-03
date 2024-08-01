@@ -13,6 +13,9 @@ ul,ol {
     margin: 0 auto;
     display: flex;
 }
+img {
+    display: block;
+}
 .nav {
     display: flex;
     align-items: center;
@@ -64,7 +67,10 @@ ul,ol {
 .address {
     font-style: normal;
 }
-
+.address-row {
+    display: flex;
+    gap: 40px;
+}
 .link-email {
     font-size: 16px;
     line-height: 1.5;
@@ -72,6 +78,9 @@ ul,ol {
     color: #434455;
     display: flex;
     margin-right: 40px;
+}
+.link-email:last-child {
+    margin-right: 0;
 }
 .link-email:hover {
     color: #404bbf;
@@ -238,6 +247,7 @@ ul,ol {
 }
 .footer-logo-color {
     color: #f4f4fd;
+    display: inline-block;
 }
 .text-footer-logo {
     line-height: 1.5;
