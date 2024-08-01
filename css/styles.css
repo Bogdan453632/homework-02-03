@@ -51,9 +51,11 @@ img {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
-    display: flex;
-    margin-right: 40px;  
+    display: flex;  
 }  
+.li {
+    margin-right: 40px;
+}
 .link-studio:last-child {
     margin-right: 0;
 }
