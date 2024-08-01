@@ -3,10 +3,8 @@ body {
     color: #434455;
     background-color: #ffffff;
 } 
-ul,ol {
-    padding-left: 0;
-    margin: 0;
-}
+
+
 .container {
     width: 1158px;
     padding: 0 15px;
@@ -42,6 +40,7 @@ img {
 }
 .menu-nav {
     justify-content: flex-start;
+    margin-right: 40px;
 }
 .link-studio {
     font-weight: 500;
@@ -52,7 +51,7 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
-    margin-right: 40px;  
+      
 }  
 .link-studio:last-child {
     margin-right: 0;
