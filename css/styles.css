@@ -109,6 +109,9 @@ body {
 .button:focus {
     background-color: #404bbf;
 } 
+.visually-hidden {
+    
+}
 .section-one {
     padding: 120px 0;
 }
@@ -116,12 +119,16 @@ body {
     display: flex;
     gap: 24px;
 }
+.list-strategy-element{
+    width: calc((100% - 72px) / 4);
+}
 .feature-strategy {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .text-strategy {
     font-size: 16px;
