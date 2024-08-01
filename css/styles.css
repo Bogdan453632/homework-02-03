@@ -40,7 +40,6 @@ img {
 }
 .menu-nav {
     justify-content: flex-start;
-    margin-right: 40px;
 }
 .link-studio {
     font-weight: 500;
@@ -51,7 +50,7 @@ img {
     padding-top: 24px;
     padding-bottom: 24px;
     display: flex;
-      
+    margin-right: 40px;  
 }  
 .link-studio:last-child {
     margin-right: 0;
@@ -216,12 +215,13 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .portfolio-items {
     width: calc((100% - 48px) / 3);
-    padding-left: 0;
-    margin: 0;
+    
 }
 .portfolio-items:nth-child(n + 4) {
     margin-bottom: 0;
