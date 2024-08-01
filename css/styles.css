@@ -12,6 +12,9 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
+.container-nav {
+    display: flex;
+}
 img {
     display: block;
 }
