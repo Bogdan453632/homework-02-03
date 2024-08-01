@@ -181,6 +181,10 @@ ul,ol {
 .name-position {
     padding: 32px 0;
 }
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .portfolio {
     font-size: 36px;
     line-height: 1.11;
@@ -188,6 +192,20 @@ ul,ol {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+}
+.portfolio-items {
+    width: calc((100% - 48px) / 3);
+}
+.container-portfolio-items {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-list {
     font-weight: 500;
@@ -195,6 +213,7 @@ ul,ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-text {
     font-size: 16px;
