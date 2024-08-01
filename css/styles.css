@@ -3,6 +3,10 @@ body {
     color: #434455;
     background-color: #ffffff;
 } 
+ul,ol {
+    margin: 0;
+    padding: 0;
+}
 .container {
     width: 1158px;
     padding: 0 15px;
@@ -149,6 +153,15 @@ body {
     color: #2e2f42;
     margin-bottom: 72px;
 }
+.photo-our-team {
+    display: flex;
+    gap: 24px;
+}
+.items-product-designer {
+    background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
 .our-team-list {
     font-weight: 500;
     font-size:20px;
@@ -212,7 +225,4 @@ body {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     max-width: 264px;
-}
-.items-product-designer {
-    background-color: #ffffff;
 }
