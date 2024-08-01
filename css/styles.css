@@ -4,8 +4,8 @@ body {
     background-color: #ffffff;
 } 
 ul,ol {
+    padding-left: 0;
     margin: 0;
-    padding: 0;
 }
 .container {
     width: 1158px;
@@ -217,8 +217,6 @@ img {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    padding-left: 0;
-    margin: 0;
 }
 
 .portfolio-items {
