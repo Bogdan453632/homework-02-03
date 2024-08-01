@@ -110,7 +110,7 @@ body {
     background-color: #404bbf;
 } 
 .visually-hidden {
-    
+
 }
 .section-one {
     padding: 120px 0;
@@ -138,6 +138,7 @@ body {
 }
 .section-our-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 .our-team {
     font-size: 36px;
@@ -146,6 +147,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .our-team-list {
     font-weight: 500;
