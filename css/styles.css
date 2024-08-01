@@ -56,7 +56,7 @@ img {
 .li {
     margin-right: 40px;
 }
-.link-studio:last-child {
+.li:last-child {
     margin-right: 0;
 }
 .link-studio:hover {
